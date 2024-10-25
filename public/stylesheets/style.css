@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+#note-form {
+  margin-bottom: 20px;
+}
+
+#note-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#note-list li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
